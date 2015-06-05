@@ -6,10 +6,11 @@ CONFIG -= qt
 QMAKE_CXXFLAGS += -std=c++11
 
 SOURCES += main.cpp \
-    SudokuSolver.cpp \
-    SudokuBoard.cpp
+    SudokuBoard.cpp \
+    SudokuSolverBruteForce.cpp
 
 HEADERS += \
-    SudokuSolver.h \
-    SudokuBoard.h
+    SudokuBoard.h \
+    ISudokuSolver.h \
+    SudokuSolverBruteForce.h
 
